@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<style>
+
+body{
+    background:#f5f7fb;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.contact-section{
+    padding:70px 0;
+}
+
+.contact-card{
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    padding:35px;
+}
+
+.contact-title{
+    font-size:34px;
+    font-weight:700;
+    color:#222;
+}
+
+.contact-title i{
+    color:#3d7eff;
+    margin-right:10px;
+}
+
+.contact-subtitle{
+    color:#777;
+    margin-bottom:30px;
+}
+
+.form-control{
+    height:48px;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+textarea.form-control{
+    height:130px;
+    resize:none;
+}
+
+.btn-send{
+    width:100%;
+    height:50px;
+    border:none;
+    border-radius:30px;
+    color:#fff;
+    font-weight:600;
+    background:linear-gradient(90deg,#5576ff,#8a3ffc);
+    transition:.3s;
+}
+
+.btn-send:hover{
+    transform:translateY(-2px);
+}
+
+.info-box{
+    background:#fafcff;
+    border-radius:12px;
+    padding:30px;
+    height:100%;
+}
+
+.info-box h4{
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.info-item{
+    display:flex;
+    margin-bottom:22px;
+    align-items:flex-start;
+}
+
+.info-item i{
+    color:#4b6fff;
+    font-size:18px;
+    width:30px;
+    margin-top:4px;
+}
+
+.info-item span{
+    color:#555;
+}
+
+.social-icons a{
+    width:35px;
+    height:35px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#eef3ff;
+    color:#4b6fff;
+    margin-right:10px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#4b6fff;
+    color:white;
+}
+
+footer{
+    padding:20px;
+    font-size:14px;
+    color:#777;
+    border-top:1px solid #eee;
+    background:white;
+}
+
+.footer-links a{
+    color:#777;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container contact-section">
+
+<div class="contact-card">
+
+<div class="row g-5">
+
+<!-- LEFT -->
+
+<div class="col-lg-7">
+
+<h2 class="contact-title">
+<i class="fas fa-envelope"></i>Get in Touch
+</h2>
+
+<p class="contact-subtitle">
+Have a question, suggestion, or feedback?
+We'd love to hear from you.
+</p>
+
+<form method="POST">
+
+<div class="mb-3">
+<label class="form-label">Full Name</label>
+<input type="text" class="form-control"
+placeholder="Your name">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Email Address</label>
+<input type="email" class="form-control"
+placeholder="you@example.com">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Subject</label>
+<input type="text" class="form-control"
+placeholder="What's this about?">
+</div>
+
+<div class="mb-4">
+<label class="form-label">Message</label>
+<textarea class="form-control"
+placeholder="Write your message here..."></textarea>
+</div>
+
+<button class="btn-send">
+<i class="fa-solid fa-paper-plane"></i>
+Send Message
+</button>
+
+</form>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="col-lg-5">
+
+<div class="info-box">
+
+<h4>
+<i class="fas fa-address-card text-primary me-2"></i>
+Contact Information
+</h4>
+
+<div class="info-item">
+<i class="fas fa-envelope"></i>
+<span>support@digitaltwin.ai</span>
+</div>
+
+<div class="info-item">
+<i class="fas fa-phone"></i>
+<span>+91 98765 43210</span>
+</div>
+
+<div class="info-item">
+<i class="fas fa-location-dot"></i>
+<span>
+Digital Twin AI Inc.<br>
+Bangalore, India
+</span>
+</div>
+
+<div class="info-item">
+<i class="fas fa-clock"></i>
+<span>Mon–Fri, 9:00 AM – 6:00 PM IST</span>
+</div>
+
+<hr>
+
+<p class="text-muted mb-3">
+We usually respond within 24 hours.
+</p>
+
+<div class="social-icons">
+
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="container d-flex justify-content-between">
+
+<div>
+© 2026 Digital Twin AI — All rights reserved.
+</div>
+
+<div class="footer-links">
+<a href="#">Privacy</a>
+<a href="#">Terms</a>
+<a href="#">Contact</a>
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
